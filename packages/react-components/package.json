@@ -18,9 +18,15 @@
     "@neutrinojs/banner": "^8.0.13",
     "@neutrinojs/react": "^8.0.13",
     "deepmerge": "^1.5.2",
-    "webpack-node-externals": "^1.6.0"
+    "webpack-node-externals": "^1.6.0",
+    "snyk": "^1.85.0"
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
