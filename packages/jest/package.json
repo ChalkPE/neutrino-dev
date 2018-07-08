@@ -23,7 +23,7 @@
     "babel-preset-jest": "^21.0.2",
     "deepmerge": "^1.5.2",
     "eslint-plugin-jest": "^21.4.2",
-    "jest-cli": "^21.0.2",
+    "jest-cli": "^23.2.0",
     "ramda": "^0.25.0",
     "yargs": "^10.0.0"
   },
