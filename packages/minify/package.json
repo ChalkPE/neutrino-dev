@@ -22,9 +22,15 @@
     "@neutrinojs/babel-minify": "^8.0.13",
     "@neutrinojs/image-minify": "^8.0.13",
     "@neutrinojs/style-minify": "^8.0.13",
-    "deepmerge": "^1.5.2"
+    "deepmerge": "^1.5.2",
+    "snyk": "^1.85.0"
   },
   "peerDependencies": {
     "neutrino": "^8.0.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
